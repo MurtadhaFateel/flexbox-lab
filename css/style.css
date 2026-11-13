@@ -8,9 +8,26 @@ body {
   margin: 0;
 }
 
+/* flex parent - flex child */
 nav {
   background-color: white;
   padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* flex child */
+#destinations {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+/* flex child */
+#actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 p {
